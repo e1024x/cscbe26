@@ -88,15 +88,7 @@ still blocked. `safe_eval` intercepts `getattr` on dunder attributes too.
 
 blocked. attribute chains through to `os` are sanitized.
 
-**attempt 5: format string gadgets**:
-
-```json
-"code": "raise UserError(\"{0.create.__func__.__globals__[os].environ}\".format(env['ir.actions.server']))"
-```
-
-blocked. `safe_eval` prevents format string attribute access to `__`-prefixed attributes.
-
-**attempt 6: `import` statement**:
+**attempt 5: `import` statement**:
 
 ```json
 "code": "import odoo\nraise UserError(str(odoo.tools.config['addons_path']))"
