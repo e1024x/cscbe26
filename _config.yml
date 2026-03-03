@@ -1,0 +1,17 @@
+title: CSCBE 2026 writeups
+description: 20 challenges across pwn, rev, crypto, forensics, web
+baseurl: "/cscbe26"
+theme: no-style-please
+
+theme_config:
+  appearance: "auto"
+  back_home_text: ".."
+  date_format: "%Y-%m-%d"
+  show_description: false
+  lowercase_titles: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

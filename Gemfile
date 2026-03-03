@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+gem "jekyll", "~> 3.9"
+gem "no-style-please"
+gem "webrick"
+gem "kramdown-parser-gfm"

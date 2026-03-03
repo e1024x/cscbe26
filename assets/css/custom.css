@@ -1,0 +1,16 @@
+code {
+  color: inherit;
+  background: #f0f0f0;
+}
+
+div.highlighter-rouge code {
+  background: #f0f0f0;
+  color: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+  code {
+    background: #f0f0f0;
+    color: inherit;
+  }
+}

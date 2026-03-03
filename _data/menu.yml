@@ -1,0 +1,51 @@
+entries:
+  - title: pwn
+    entries:
+      - title: Night Shift
+        url: pwn/night-shift
+      - title: The Suggestion Box
+        url: pwn/suggestion-box
+      - title: Second Serving
+        url: pwn/second-serving
+      - title: CatchTheFlag
+        url: pwn/catch-the-flag
+      - title: Masterchef
+        url: pwn/masterchef
+      - title: Heap Heap Hooray
+        url: pwn/heap-heap-hooray
+
+  - title: rev
+    entries:
+      - title: Puzzle
+        url: rev/puzzle
+      - title: Neon Nights
+        url: rev/neon-nights
+      - title: Fortune Teller
+        url: rev/fortune-teller
+
+  - title: crypto
+    entries:
+      - title: Broken Record
+        url: crypto/broken-record
+      - title: Time Capsule
+        url: crypto/time-capsule
+      - title: Secret Archive
+        url: crypto/secret-archive
+      - title: "Bill's Gates"
+        url: crypto/bills-gates
+
+  - title: forensics
+    entries:
+      - title: Is This a Rainbow?
+        url: forensics/malicious-pdf
+
+  - title: web
+    entries:
+      - title: Where is my file?
+        url: web/file-system-browser
+      - title: "TeamNameBE's Website"
+        url: web/teamNameBE
+      - title: Lost in Translation
+        url: web/lost-in-translation
+      - title: Unsafe Eval
+        url: web/odoo-unsafe-eval
